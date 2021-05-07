@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in jss</title>
+</head>
+<style>
+#btn{
+    padding: 10px 14px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+</style>
+<body>
+    <div class="container">
+        <h1>This is heading</h1>
+        <p id="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias a aspernatur ad. Fugit omnis aperiam saepe quas, eveniet nulla odit, optio, hic cumque dignissimos iste veritatis harum quam maiores veniam voluptate dolor amet? Doloribus mollitia et ad obcaecati quidem atque inventore consequatur eaque, minus, sequi ipsam, enim quae. Maxime, laboriosam nulla beatae quaerat consequuntur soluta totam sunt animi commodi! Aperiam nostrum est ad magni fugit debitis voluptatibus incidunt maiores neque molestiae rem in sapiente a, illo earum, quo repellat placeat dolores impedit repudiandae delectus dolorum molestias facere laudantium. Sed, at totam! Animi enim, aut quam praesentium sed ullam quidem necessitatibus earum, numquam voluptatem, dolore fugit nostrum saepe distinctio. Eius necessitatibus vel, voluptates beatae aliquid ea. Dolorem illo voluptates fugit! Pariatur, corrupti, sunt cumque, fugiat molestias dignissimos magni ullam tempore porro provident quis culpa. Maxime, id? Perferendis labore suscipit et? Eum labore earum iusto similique atque, eveniet repudiandae vel debitis est, eius repellendus pariatur laboriosam! Exercitationem, molestias. Expedita magnam cumque iusto necessitatibus similique. Odit tempora laboriosam ex nesciunt molestiae quidem perspiciatis quasi maiores velit eius recusandae assumenda suscipit quod autem voluptate, mollitia aperiam nulla minima possimus labore facilis dolore unde. Rerum error iusto accusantium repudiandae saepe iste deleniti voluptates, quidem natus in maiores esse cumque aliquam dignissimos provident aperiam ut atque quaerat tempora? Officiis ad vitae dolore, earum fugit, dolor vero aliquid est at quaerat neque dolorem cumque? Sapiente cum vero totam quos fuga temporibus culpa. Nostrum vitae consequatur distinctio, facere natus commodi cupiditate qui reiciendis odit deleniti unde, mollitia amet? Odio sapiente, ullam repellendus corrupti fugiat ipsa aliquid minus id explicabo, modi fuga voluptates atque assumenda aut quae, ex eveniet cupiditate recusandae corporis ab vero architecto. 
+        </p>
+    </div>
+    <button id="btn" onclick="hide()" >show/hide</button>
+    <script>
+        function hide(){
+            // let btn = document.getElementById('btn') 
+            let para = document.getElementById('para') 
+            if (para.style.display !="none"){
+                para.style.display ="none"
+
+            }
+            else{
+                para.style.display ="block"
+            }
+            
+
+        }
+    </script>
+</body>
+</html>
